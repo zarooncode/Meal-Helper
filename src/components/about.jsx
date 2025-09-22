@@ -7,10 +7,10 @@ export default function About() {
 
   return (
     <div className="about-container">
-      <h1 className="about-title" id="about-title">
+      <h1 className="about-title titles" id="about-title">
         ABOUT US
       </h1>
-      <div className="about-info-container">
+      <div className="about-info-container ids">
         <p className="about-intro">
           Hi! My name is{" "}
           <span
@@ -22,8 +22,8 @@ export default function About() {
           >
             Zaroon Ali
           </span>{" "}
-          and I'm the developer of this app! This app was made by <br /> me
-          alone, and I have learnt alot of things while making this app! <br />
+          and I'm the developer of this website! This website was made by <br /> me
+          alone, and I have learnt alot of things while making this website! <br />
           I have experience with coding in the past in other languages and as
           well as in making <br /> websites with{" "}
           <a className="links" href="https://react.dev/" target="_blank">
@@ -39,7 +39,7 @@ export default function About() {
           <br />
         </p>
         <img
-          className="dev-image"
+          className="dev-image images"
           src={devImage}
           alt="image"
           onClick={() => openNewWin("https://github.com/zarooncode/")}

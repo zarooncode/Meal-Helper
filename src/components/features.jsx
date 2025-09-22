@@ -12,7 +12,7 @@ export default function Features() {
 
   return (
     <div className="features-container">
-      <h1 className="features-title" id="features-title">
+      <h1 className="features-title titles" id="features-title">
         HOW DOES IT WORK?
       </h1>
       <div className="features-info-container">

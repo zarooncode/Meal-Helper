@@ -16,19 +16,22 @@ export default function NavBar() {
         className="nav-buttons"
         to="/home"
         onClick={() => {
-          scrollToSection("home-text");
+          scrollToSection("home-title");
         }}
       >
         Home
       </Link>
       <button
         className="smoothScroll-buttons"
+        onClick={() => scrollToSection("features-title")}
+      >
+        Features
+      </button>
+      <button
+        className="smoothScroll-buttons"
         onClick={() => scrollToSection("reviews-title")}
       >
         Testimonials
-      </button>
-      <button className="smoothScroll-buttons" onClick={() => scrollToSection("features-title")}>
-        Features
       </button>
       <button
         className="smoothScroll-buttons"

@@ -32,10 +32,10 @@ export default function TestimonyCard() {
   ];
 
   return (
-    <div className="testimony-card">
+    <div className="testimony-card cards">
       {testimonials.map((testimony) => (
-        <div className="testimony-id" key={testimony.id}>
-          <img className="testimony-image" src={testimony.img} alt="Image" />
+        <div className="testimony-id ids" key={testimony.id}>
+          <img className="testimony-image images" src={testimony.img} alt="Image" />
           <p className="testimony-info">{testimony.info}</p>
           <h5 className="testimony-name">{testimony.name}</h5>
         </div>

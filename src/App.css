@@ -22,7 +22,7 @@ body {
 .nav-bar {
   display: flex;
   position: sticky;
-  z-index: 1000;
+  z-index: 10000;
   top: 0;
   justify-content: center;
   background-color: #21272c;
@@ -78,8 +78,9 @@ body {
 .home-text {
   justify-self: center;
 }
-.title {
-  color: #4caf4fe2;
+.home-title {
+  color: black;
+  font-size: 36px;
 }
 
 .food-card {
@@ -92,7 +93,8 @@ body {
 }
 .food-image {
   cursor: pointer;
-  width: 260px;
+  width: 250px;
+  height: 300px;
   border: 3px greenyellow solid;
   transition: scale 0.2s;
 }
@@ -104,6 +106,11 @@ body {
 }
 .food-id {
   width: 275px;
+}
+.refresh-page-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
 }
 .refresh-page-button {
   margin-left: 5px;
@@ -158,8 +165,8 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .testimony-image {
-  width: 260px;
-  height: 280px;
+  width: 250px;
+  height: 300px;
   border: 3px black solid;
   cursor: pointer;
   transition: scale 0.2s;
@@ -224,4 +231,20 @@ body {
 }
 .features-image:hover {
   scale: 105%;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+  .images {
+    width: 150px;
+    height: 200px;
+  }
+  .ids {
+    font-size: 12px;
+  }
+  .titles {
+    font-size: 18px;
+  }
 }

@@ -22,9 +22,9 @@ export default function FoodCard() {
   return (
     <div className="food-card">
       {foods.map((food) => (
-        <div className="food-id" key={food.idMeal}>
+        <div className="food-id ids" key={food.idMeal}>
           <img
-            className="food-image"
+            className="food-image images"
             src={food.strMealThumb}
             alt="Image"
             onClick={() => openInfoPage()}
