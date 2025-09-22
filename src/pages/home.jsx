@@ -29,11 +29,7 @@ export default function HomePage() {
           <span style={{ color: "#4caf4fe2" }}>macros</span> for the day!
         </h4>
       </div>
-      <div className="refresh-page-button-container">
-        <RefreshButton />
-      </div>
       <div className="food-cards-container">
-        <Search />
         <div className="card-container" id="card-containers">
           <FoodCard />
         </div>
