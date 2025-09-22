@@ -29,23 +29,22 @@ export default function Search() {
       const cards = document.getElementById("card-containers");
       displayInputFoods(searchText);
       setText("");
-      // navigate("/search");
       cards.style.display = "none";
     }
   }
 
   function openInfoPage() {
     navigate("/info");
-  }
+  } 
 
   return (
-    <div className="search-page">
+    <div className="searchig" id="searchig">
       <input
         value={searchText}
         className="text-box"
         id="text-box"
         type="text"
-        placeholder="Search for a food!"
+        placeholder="Search for a meal and get instant results!"
         onKeyDown={(event) => handleEnter(event)}
         onChange={(e) => {
           setText(e.target.value);

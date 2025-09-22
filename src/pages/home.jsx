@@ -1,13 +1,15 @@
 import FoodCard from "../components/homeCard";
 import RefreshButton from "../components/jumbleMealsButton";
 import Testimonials from "../components/reviews";
+import About from "../components/about";
+import Features from "../components/features";
 import Search from "../components/search";
 
 export default function HomePage() {
   return (
     <div className="home-page" id="home-page">
       <div className="home-text" id="home-text">
-        <h1 className="title">
+        <h1 className="title" id="title">
           WELCOME TO{" "}
           <span style={{ textDecoration: "underline" }}>MEAL-HELPER</span>!
         </h1>
@@ -23,12 +25,12 @@ export default function HomePage() {
           <span style={{ color: "#4caf4fe2" }}>weekly meals</span>!
         </h4>
         <h4>
-          Here are some foods that you might want to <br /> check the{" "}
-          <span style={{ color: "#4caf4fe2" }}>macros</span> of:
+          Dive right in to check your{" "}
+          <span style={{ color: "#4caf4fe2" }}>macros</span> for the day!
         </h4>
       </div>
+      <RefreshButton />
       <div className="food-cards-container">
-        <RefreshButton />
         <Search />
         <div className="card-container" id="card-containers">
           <FoodCard />
@@ -36,6 +38,12 @@ export default function HomePage() {
       </div>
       <div className="reviews-container">
         <Testimonials />
+      </div>
+      <div className="features-container">
+        <Features />
+      </div>
+      <div className="about-container">
+        <About />
       </div>
     </div>
   );

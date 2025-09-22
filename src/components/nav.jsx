@@ -4,7 +4,9 @@ export default function NavBar() {
   function scrollToSection(id) {
     const element = document.getElementById(id);
     element
-      ? element.scrollIntoView({ behavior: "smooth", block: "center" })
+      ? setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth", block: "center" });
+        }, 50)
       : console.log(`Could not find Element searched by ${id}`);
   }
 
@@ -14,7 +16,7 @@ export default function NavBar() {
         className="nav-buttons"
         to="/home"
         onClick={() => {
-          displayHomePage();
+          scrollToSection("home-text");
         }}
       >
         Home
@@ -25,22 +27,21 @@ export default function NavBar() {
       >
         Testimonials
       </button>
+      <button className="smoothScroll-buttons" onClick={() => scrollToSection("features-title")}>
+        Features
+      </button>
+      <button
+        className="smoothScroll-buttons"
+        onClick={() => scrollToSection("about-title")}
+      >
+        About
+      </button>
       <button
         className="smoothScroll-buttons"
         onClick={() => scrollToSection("footer-bar")}
       >
-        Contact
+        Contact / Legal Rights
       </button>
-      <Link
-        className="nav-buttons"
-        to="/search"
-        onClick={() => {
-          scrollToSection("text-box");
-          displaySearchBar();
-        }}
-      >
-        Search
-      </Link>
     </nav>
   );
 }

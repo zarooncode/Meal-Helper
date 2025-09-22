@@ -20,7 +20,7 @@ export default function TestimonyCard() {
     {
       id: 3,
       name: "Abdul Moiz Narejo - A trusted and happy Meal-Helper User!",
-      info: `"I was very fat and chubby, and wanted to end it all, until I came to know about Meal-Helper. This website helped me lose ALOT of weight, I may still look overweight, but I am way happier then I was before! This website helped me track down the macros of the food I was eating, letting me plan my weekly meals, I am very appreciative of this website!"`,
+      info: `"I was very fat and chubby, and very upset with my body, until I came to know about Meal-Helper. This website helped me lose ALOT of weight, I may still look overweight, but I am way happier then I was before! This website helped me track down the macros of the food I was eating, letting me plan my weekly meals, I Love this website!!!"`,
       img: male3,
     },
     {

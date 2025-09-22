@@ -4,6 +4,21 @@ body {
   margin: 0;
 }
 
+/* Containers for new sections and titles etc CSS */
+.reviews-container,
+.about-container,
+.features-container {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.reviews-title,
+.about-title,
+.features-title {
+  color: #4caf4fe2;
+  text-decoration: underline;
+}
+
 .nav-bar {
   display: flex;
   position: sticky;
@@ -12,9 +27,9 @@ body {
   justify-content: center;
   background-color: #21272c;
   padding: 20px 0px;
+  gap: 25px;
 }
 .nav-buttons {
-  margin-left: 30px;
   text-decoration: none;
   border-bottom: 2px solid transparent;
   color: #ff8000e2;
@@ -26,7 +41,6 @@ body {
   border-bottom: 2px solid white;
 }
 .smoothScroll-buttons {
-  margin-left: 30px;
   text-decoration: none;
   border-bottom: 2px solid transparent;
   color: #ff8000e2;
@@ -62,22 +76,23 @@ body {
   zoom: 149%;
 }
 .home-text {
-  margin-left: 35%;
+  justify-self: center;
 }
 .title {
   color: #4caf4fe2;
 }
 
 .food-card {
-  margin-top: 30px;
+  margin-top: 18px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
+  text-align: center;
 }
 .food-image {
   cursor: pointer;
-  width: 250px;
+  width: 260px;
   border: 3px greenyellow solid;
   transition: scale 0.2s;
 }
@@ -88,15 +103,10 @@ body {
   font-weight: bold;
 }
 .food-id {
-  width: 280px;
-}
-.refresh-page-button-container {
-  display: flex;
-  justify-content: center;
+  width: 275px;
 }
 .refresh-page-button {
-  margin-top: 38px;
-  margin-left: 140px;
+  margin-left: 5px;
   cursor: pointer;
   background-color: black;
   color: white;
@@ -116,7 +126,6 @@ body {
 .text-box {
   display: flex;
   justify-self: center;
-  margin-left: 20px;
   margin-top: 15px;
   border-radius: 5px;
   padding: 4px;
@@ -124,7 +133,7 @@ body {
   color: black;
   border-color: transparent;
   border: 3px solid green;
-  width: 130px;
+  width: 250px;
   height: 20px;
 }
 .text-box::placeholder {
@@ -138,24 +147,15 @@ body {
   margin-left: 110px;
 }
 
-.reviews-container {
-  margin-top: 30px;
-  text-align: center;
-  flex-wrap: wrap;
-}
-.reviews-title {
-  color: #4caf4fe2;
-  text-decoration: underline;
-}
 .testimony-card {
   margin-top: 45px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+  text-align: center;
   white-space: pre-line;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .testimony-image {
   width: 260px;
@@ -172,4 +172,56 @@ body {
 }
 .testimony-id {
   width: 275px;
+}
+
+.about-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  justify-content: center;
+}
+.about-intro {
+  display: inline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+}
+.dev-image {
+  margin-left: 17px;
+  width: 260px;
+  height: 280px;
+  border: 3px gold solid;
+  cursor: pointer;
+  width: 260px;
+  transition: scale 0.2s;
+}
+.dev-image:hover {
+  scale: 105%;
+}
+.links {
+  color: grey;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.links:hover {
+  color: #3f7eae;
+}
+
+.features-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-self: center;
+  width: 510px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.features-image {
+  margin-left: 17px;
+  height: 180px;
+  border: 3px transparent solid;
+  cursor: pointer;
+  width: 260px;
+  transition: scale 0.2s;
+}
+.features-image:hover {
+  scale: 105%;
 }
