@@ -7,7 +7,6 @@ import MealPage from "./pages/findMeal";
 import FoodInfoPage from "./pages/info";
 import Search from "./components/search";
 
-//Testing testing 123 456 789
 function App() {
   return (
     <MainRouter>
