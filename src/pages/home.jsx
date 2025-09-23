@@ -1,9 +1,8 @@
 import FoodCard from "../components/homeCard";
-import RefreshButton from "../components/jumbleMealsButton";
 import Testimonials from "../components/reviews";
 import About from "../components/about";
 import Features from "../components/features";
-import Search from "../components/search";
+import MealSection from "../components/mealStart";
 
 export default function HomePage() {
   return (
@@ -11,12 +10,21 @@ export default function HomePage() {
       <div className="home-text" id="home-text">
         <h1 className="home-title" id="home-title">
           WELCOME TO{" "}
-          <span style={{ color: "#4caf4fe2" ,textDecoration: "underline" }}>MEAL-HELPER</span>!
+          <span style={{ color: "#4caf4fe2", textDecoration: "underline" }}>
+            MEAL-HELPER
+          </span>
+          !
         </h1>
         <h3 className="title-info">
           The only website you'll ever need <br /> to{" "}
-          <span style={{ color: "#4caf4fe2", textDecoration: "underline" }}>calculate</span> your{" "}
-          <span style={{ color: "#4caf4fe2", textDecoration: "underline" }}>calories</span>!
+          <span style={{ color: "#4caf4fe2", textDecoration: "underline" }}>
+            calculate
+          </span>{" "}
+          your{" "}
+          <span style={{ color: "#4caf4fe2", textDecoration: "underline" }}>
+            calories
+          </span>
+          !
         </h3>
         <h4>
           Worried about eating too many or too few calories? <br /> With
@@ -25,8 +33,8 @@ export default function HomePage() {
           <span style={{ color: "#4caf4fe2" }}>weekly meals</span> effortlessly!
         </h4>
         <h4>
-          Dive in now and check your{" "}
-          <span style={{ color: "#4caf4fe2" }}>macros</span> for the day!
+          Here are some {" "}
+          <span style={{ color: "#4caf4fe2" }}>meals</span>!
         </h4>
       </div>
       <div className="food-cards-container">
@@ -42,6 +50,9 @@ export default function HomePage() {
       </div>
       <div className="about-container">
         <About />
+      </div>
+      <div className="meals-component-container">
+        <MealSection />
       </div>
     </div>
   );

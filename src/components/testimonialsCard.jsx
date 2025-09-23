@@ -2,6 +2,7 @@ import male1 from "../assets/male1.png";
 import male2 from "../assets/male2.png";
 import male3 from "../assets/male3.png";
 import male4 from "../assets/male4.png";
+import maleTest from "../assets/maletest.png"
 
 export default function TestimonyCard() {
   const testimonials = [
@@ -9,7 +10,7 @@ export default function TestimonyCard() {
       id: 1,
       name: "John Smork - A trusted and happy Meal-Helper User!",
       info: `"I found out about Meal-Helper and lost 10 KG! Now I'm a fit over 40 male in amazing condition, and this site is what I refer to several times a day, ensuring that I eat properly and check my macros."`,
-      img: male1,
+      img: maleTest,
     },
     {
       id: 2,

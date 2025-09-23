@@ -13,9 +13,9 @@ export default function Features() {
   return (
     <div className="features-container">
       <h1 className="features-title titles" id="features-title">
-        HOW DOES IT WORK?
+        How does it work?
       </h1>
-      <div className="features-info-container">
+      <div className="features-info-container ids">
         <img
           className="features-image"
           src={featuresImage}

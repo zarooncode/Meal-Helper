@@ -8,9 +8,9 @@ export default function About() {
   return (
     <div className="about-container">
       <h1 className="about-title titles" id="about-title">
-        ABOUT US
+        About Us
       </h1>
-      <div className="about-info-container ids">
+      <div className="about-info-container">
         <p className="about-intro">
           Hi! My name is{" "}
           <span
