@@ -7,7 +7,7 @@ import MealPage from "./pages/findMeal";
 import FoodInfoPage from "./pages/info";
 import Search from "./components/search";
 
-//Test : tung tung tung sahurardibinio kroadni
+//Testing testing 123 456 789
 function App() {
   return (
     <MainRouter>
