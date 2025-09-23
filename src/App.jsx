@@ -7,6 +7,7 @@ import MealPage from "./pages/findMeal";
 import FoodInfoPage from "./pages/info";
 import Search from "./components/search";
 
+//Test : tung tung tung sahur
 function App() {
   return (
     <MainRouter>
@@ -15,6 +16,7 @@ function App() {
         <Search />
       </div>
       <Routes>
+        <Route path="/SKIBIDI" element="tnugngutnguntungutng"/>
         <Route path="/" element={<HomePage />} />
         <Route path="/info" element={<FoodInfoPage />} />
         <Route path="/home" element={<HomePage />} />
