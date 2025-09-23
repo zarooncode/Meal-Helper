@@ -15,7 +15,6 @@ function App() {
         <Search />
       </div>
       <Routes>
-        <Route path="/SKIBIDI" element="tnugngutnguntungutng"/>
         <Route path="/" element={<HomePage />} />
         <Route path="/info" element={<FoodInfoPage />} />
         <Route path="/home" element={<HomePage />} />
