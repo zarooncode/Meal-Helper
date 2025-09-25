@@ -86,7 +86,7 @@ body {
 }
 
 .food-card {
-  margin-top: 50px;
+  margin-top: 25px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -112,10 +112,9 @@ body {
 .refresh-page-button-container {
   display: flex;
   justify-content: center;
-  margin-top: 45px;
+  /* margin-top: 45px; */
 }
 .refresh-page-button {
-  margin-left: 5px;
   cursor: pointer;
   background-color: black;
   color: white;
@@ -135,7 +134,7 @@ body {
 .text-box {
   display: flex;
   justify-self: center;
-  margin-top: 15px;
+  margin-top: 10px;
   border-radius: 5px;
   padding: 4px;
   background-color: #4caf4fe2;
@@ -151,9 +150,6 @@ body {
 }
 .text-box:hover::placeholder {
   color: black;
-}
-.intro-text-search {
-  margin-left: 110px;
 }
 
 .testimony-card {
@@ -252,6 +248,14 @@ body {
 }
 .meal-opener-button:active {
   background-color: black;
+}
+
+.meal-page {
+  zoom: 149%;
+}
+.extra-container {
+  margin-top: 30px;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
