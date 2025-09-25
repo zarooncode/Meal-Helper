@@ -34,6 +34,7 @@ export default function About() {
           search queries and etc! <br />
           I also want to thank all my friends who gave me permission to use
           their pictures as testimonies! <br />
+          (This project is Open-Source, you can check it out on my github, (first offical open-src project)) <br />
           (Want to check out my github and other projects? Click on my face!) <br />
           (Built this Website for CS Exhibition, No templates used - ONLY CODE)
           <br />
