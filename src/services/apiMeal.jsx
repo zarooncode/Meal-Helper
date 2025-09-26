@@ -1,7 +1,7 @@
 export async function fetchFoodDataForMeals() {
   const meal = [];
 
-  for (let i = 0; i < 8; i++) {
+  for (let i = 0; i < 12; i++) {
     const response = await fetch(
       `https://www.themealdb.com/api/json/v1/1/random.php`
     );
