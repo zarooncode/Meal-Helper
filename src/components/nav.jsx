@@ -19,37 +19,37 @@ export default function NavBar() {
           scrollToSection("home-title");
         }}
       >
-        Home
+        🏠Home
       </Link>
       <button
         className="smoothScroll-buttons"
         onClick={() => scrollToSection("features-title")}
       >
-        Features
+        ✨Features
       </button>
       <button
         className="smoothScroll-buttons"
         onClick={() => scrollToSection("reviews-title")}
       >
-        Testimonials
+        ⭐Testimonials
       </button>
       <button
         className="smoothScroll-buttons"
         onClick={() => scrollToSection("about-title")}
       >
-        About
+        📖About
       </button>
       <button
         className="smoothScroll-buttons"
         onClick={() => scrollToSection("meal-start-title")}
       >
-        Find Meals
+        🍽️Find Meals
       </button>
       <button
         className="smoothScroll-buttons"
         onClick={() => scrollToSection("footer-bar")}
       >
-        Contact / Privileges
+        📩Contact /👑Privileges
       </button>
     </nav>
   );
