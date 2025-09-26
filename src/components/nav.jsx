@@ -43,7 +43,7 @@ export default function NavBar() {
         className="smoothScroll-buttons"
         onClick={() => scrollToSection("meal-start-title")}
       >
-        Product
+        Find Meals
       </button>
       <button
         className="smoothScroll-buttons"

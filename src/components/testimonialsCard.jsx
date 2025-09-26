@@ -8,7 +8,7 @@ export default function TestimonyCard() {
   const testimonials = [
     {
       id: 1,
-      name: "John Smork - A trusted and happy Meal-Helper User!",
+      name: "Arif Riaz - A trusted and happy Meal-Helper User!",
       info: `"I found out about Meal-Helper and lost 10 KG! Now I'm a fit over 40 male in amazing condition, and this site is what I refer to several times a day, ensuring that I eat properly and check my macros."`,
       img: maleTest,
     },
