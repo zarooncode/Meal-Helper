@@ -8,7 +8,8 @@ body {
 .reviews-container,
 .about-container,
 .features-container,
-.meal-start-container {
+.meal-start-container,
+.faq-container {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 10px;
@@ -16,7 +17,8 @@ body {
 .reviews-title,
 .about-title,
 .features-title,
-.meal-start-title {
+.meal-start-title,
+.faq-title {
   color: #4caf4fe2;
   text-decoration: underline;
 }

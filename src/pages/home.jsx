@@ -33,8 +33,7 @@ export default function HomePage() {
           <span style={{ color: "#4caf4fe2" }}>weekly meals</span> effortlessly!
         </h4>
         <h4>
-          Here are some {" "}
-          <span style={{ color: "#4caf4fe2" }}>meals</span>!
+          Here are some <span style={{ color: "#4caf4fe2" }}>meals</span>!
         </h4>
       </div>
       <div className="food-cards-container">

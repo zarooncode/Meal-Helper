@@ -45,6 +45,12 @@ export default function NavBar() {
       >
         🍽️Find Meals
       </button>
+      {/* <button
+        className="smoothScroll-buttons"
+        onClick={() => scrollToSection("faq-title")}
+      >
+        FAQ
+      </button> */}
       <button
         className="smoothScroll-buttons"
         onClick={() => scrollToSection("footer-bar")}
