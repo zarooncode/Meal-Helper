@@ -69,10 +69,21 @@ body {
 .contact-links {
   color: grey;
   text-decoration: none;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s;
 }
 .contact-links:hover {
+  border-bottom: 2px solid black;
+}
+.faq-button {
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  color: gray;
+  font-weight: bold;
+  font-size: x-large;
+  transition: border-bottom 0.2s;
+}
+.faq-button:hover {
   border-bottom: 2px solid black;
 }
 
@@ -260,6 +271,10 @@ body {
   text-align: center;
 }
 
+.faq-page {
+  zoom: 149%;
+}
+
 @media (max-width: 600px) {
   body {
     font-size: 12px;
@@ -282,13 +297,13 @@ body {
     scale: 65%;
   }
 }
-@media (max-width: 830px) {
+@media (max-width: 940px) {
   .nav-bar {
     gap: 0px;
     padding: 10px 0px;
   }
   .nav-buttons,
   .smoothScroll-buttons {
-    scale: 60%;
+    scale: 80%;
   }
 }

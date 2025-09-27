@@ -4,6 +4,7 @@ import NavBar from "./components/nav";
 import FooterBar from "./components/footer";
 import HomePage from "./pages/home";
 import MealPage from "./pages/findMeal";
+import FaqPage from "./components/faq";
 import FoodInfoPage from "./pages/info";
 import Search from "./components/search";
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/home" element={<HomePage />} />
         <Route path="/info" element={<FoodInfoPage />} />
         <Route path="/meals" element={<MealPage />} />
+        <Route path="/faq" element={<FaqPage />} />
         {/* <Route path="/search" element={<Search />} /> */}
       </Routes>
       <FooterBar />

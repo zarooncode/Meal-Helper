@@ -3,7 +3,7 @@ import Testimonials from "../components/reviews";
 import About from "../components/about";
 import Features from "../components/features";
 import MealSection from "../components/mealStart";
-
+  
 export default function HomePage() {
   return (
     <div className="home-page" id="home-page">
