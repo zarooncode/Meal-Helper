@@ -4,7 +4,7 @@ import NavBar from "./components/nav";
 import FooterBar from "./components/footer";
 import HomePage from "./pages/home";
 import MealPage from "./pages/findMeal";
-import FaqPage from "./components/faq";
+import FaqPage from "./pages/faq";
 import FoodInfoPage from "./pages/info";
 import Search from "./components/search";
 
