@@ -3,7 +3,7 @@ export default function FaqPage() {
     <div className="faq-page">
       <div className="faq-container">
         <h1 className="faq-title" id="faq-title">
-          FAQ
+          Frequently Asked Questions
         </h1>
       </div>
     </div>
