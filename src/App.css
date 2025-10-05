@@ -23,6 +23,7 @@ body {
   /* color: #4caf4fe2; */
   color: black;
   text-decoration: underline;
+  text-align: center;
 }
 
 .nav-bar {
@@ -90,10 +91,10 @@ body {
 }
 
 .home-page {
-  zoom: 155%;
+  zoom: 147%;
 }
 .home-text {
-  justify-self: center;
+  text-align: center;
 }
 .home-title {
   font-size: 36px;
@@ -265,7 +266,7 @@ body {
 }
 
 .meal-page {
-  zoom: 155%;
+  zoom: 147%;
 }
 .extra-container {
   margin-top: 30px;
@@ -273,7 +274,7 @@ body {
 }
 
 .faq-page {
-  zoom: 155%;
+  zoom: 147%;
 }
 
 @media (max-width: 680px) {
