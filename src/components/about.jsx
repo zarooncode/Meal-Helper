@@ -1,4 +1,4 @@
-import devImage from "../assets/zaroon.png";
+import devImage from "../assets/zaroon.jpg";
 
 export default function About() {
   function openNewWin(url) {
