@@ -11,7 +11,7 @@ body {
 .features-container,
 .meal-start-container,
 .faq-container {
-  text-align: center;
+  justify-self: center;
   margin-top: 40px;
   margin-bottom: 10px;
 }
@@ -20,10 +20,9 @@ body {
 .features-title,
 .meal-start-title,
 .faq-title {
-  /* color: #4caf4fe2; */
   color: black;
   text-decoration: underline;
-  text-align: center;
+  justify-self: center;
 }
 
 .nav-bar {
@@ -32,15 +31,17 @@ body {
   z-index: 10000;
   top: 0;
   justify-content: center;
-  background-color: #21272c;
+  background-color: rgba(33, 39, 44, 0.85);
   padding: 20px 0px;
   gap: 25px;
+  backdrop-filter: blur(3.5px);
 }
 .nav-buttons {
   text-decoration: none;
   border-bottom: 2px solid transparent;
-  color: #ff8000e2;
-  font-weight: bold;
+  letter-spacing: 0.3px;
+  color: white;
+  font-weight: 500;
   font-size: x-large;
   transition: border-bottom 0.2s;
 }
@@ -50,8 +51,9 @@ body {
 .smoothScroll-buttons {
   text-decoration: none;
   border-bottom: 2px solid transparent;
-  color: #ff8000e2;
-  font-weight: bold;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.3px;
   font-size: x-large;
   transition: border-bottom 0.2s;
   background-color: transparent;
@@ -94,7 +96,10 @@ body {
   zoom: 147%;
 }
 .home-text {
-  text-align: center;
+  justify-self: center;
+}
+.title-info {
+  justify-self: center;
 }
 .home-title {
   font-size: 36px;
@@ -106,7 +111,6 @@ body {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  text-align: center;
 }
 .food-image {
   cursor: pointer;
@@ -120,6 +124,7 @@ body {
 }
 .food-name {
   font-weight: bold;
+  justify-self: center;
 }
 .food-id {
   width: 275px;
@@ -173,7 +178,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  text-align: center;
   white-space: pre-line;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -199,6 +203,7 @@ body {
   flex-wrap: wrap;
   gap: 13px;
   justify-content: center;
+  text-align: center;
 }
 .about-intro {
   display: inline;
@@ -270,7 +275,7 @@ body {
 }
 .extra-container {
   margin-top: 30px;
-  text-align: center;
+  justify-self: center;
 }
 
 .faq-page {
